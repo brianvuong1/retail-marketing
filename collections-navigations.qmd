@@ -54,4 +54,4 @@ If the Cal Poly Pomona (CPP) Farm Store were to optimize its online product cate
 
 Github Repository: https://github.com/brianvuong1/retail-marketing
 
-Published Report:
+Published Report: https://brianvuong1.github.io/retail-marketing/collections-navigations.html
