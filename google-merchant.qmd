@@ -14,15 +14,6 @@ execute:
   freeze: auto
 ---
 
----
-title: "Shopify to Google Merchant Center Connection Report"
-author: "Your Name"
-date: today
-format: 
-  html:
-    toc: true
-    theme: cosmo
----
 
 ## Introduction
 
