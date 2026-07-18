@@ -1,0 +1,76 @@
+---
+title: "Google Skillshop Assignment: Shopping Ads & CPP Farm Store Reflection"
+author: "Brian"
+date: today
+format: html
+---
+
+# Part 1: Google Skillshop Modules Completion
+
+## Module 1: Grow Your Retail Business with Google
+
+**Key Learnings:**
+
+- Google provides retailers with multiple tools and platforms to reach customers across different stages of the shopping journey
+- Retail businesses can leverage Google's ecosystem (Search, Shopping, YouTube, Display Network) to increase visibility
+- Integration between online and offline channels helps drive foot traffic and online sales
+- Data-driven insights from Google tools help retailers understand customer behavior and optimize campaigns
+- Retailers can use Google's products to compete effectively in the digital marketplace
+- Personalization and targeting capabilities allow businesses to reach the right customers at the right time
+- Google Shopping integration helps retailers showcase products directly in search results
+
+## Module 2: Know How Shopping Ads Work
+
+**Key Learnings:**
+
+- Shopping Ads are visual product listings that appear in Google Search results and Shopping tab
+- Shopping Ads display product images, titles, prices, and seller information prominently
+- The ads are triggered by relevant search queries that match product data in merchant feeds
+- Shopping Ads require a product feed connected to Google Merchant Center
+- Ad placement and performance depend on bid amounts, product data quality, and feed optimization
+- Shopping Ads appear above traditional text ads, increasing visibility and click-through rates
+- Customers can compare products, prices, and reviews directly within Shopping Ads
+- Shopping Ads drive high-intent traffic since customers are actively searching for products
+- Real-time inventory and pricing data ensure accuracy and customer trust
+- Performance metrics (impressions, clicks, conversions) help retailers optimize their campaigns
+
+## Module 3: Identify Key Shopping Ad Requirements
+
+**Key Learnings:**
+
+- Google Merchant Center is essential for uploading and managing product feeds
+- Required product data attributes: title, description, image, price, availability, product ID, and URL
+- Product titles must be clear, descriptive, and include relevant keywords for searchability
+- High-quality product images are critical—they significantly impact click-through and conversion rates
+- Accurate pricing and availability information must be updated regularly to prevent customer frustration
+- Landing pages must be mobile-friendly and directly related to the product being advertised
+- Product categories and types must be properly classified in the Google taxonomy
+- Compliance with Google's policies is mandatory—violations can result in disapproval or account suspension
+- Feed optimization includes removing duplicates, ensuring data consistency, and adding optional attributes
+- Regular monitoring and updates of product data maintain campaign performance and customer satisfaction
+
+---
+
+# Part 2: CPP Farm Store Application Reflection
+
+## How Could Google Shopping Ads or Product Listings Help CPP Farm Store Reach Customers?
+
+Google Shopping Ads present a significant opportunity for CPP Farm Store to expand its customer reach beyond campus and local proximity. By integrating with Google Merchant Center and creating a comprehensive product feed, the farm store can showcase its fresh produce, plants, and agricultural products directly within Google Search results and the Shopping tab. This visibility is particularly valuable because it allows customers actively searching for local farm products, organic produce, or specialty items to discover CPP Farm Store organically. Shopping Ads enable the store to compete with larger retailers while emphasizing its unique value proposition—freshness, local sourcing, and quality. Additionally, the integration of location data would allow nearby customers searching for "farmers market near me" or "fresh produce in Pomona" to find the farm store easily. This multi-channel approach helps bridge the gap between the farm store's physical location and digital discoverability.
+
+## Which CPP Farm Store Customer Segment Would Benefit Most from Improved Online Product Discovery?
+
+The customer segment that would benefit most from improved online product discovery is environmentally-conscious consumers and students seeking sustainable, locally-sourced products. College students, in particular, represent a significant potential market—they are digitally native, price-conscious, and increasingly value sustainability. By making CPP Farm Store's products discoverable through Google Shopping, the store can reach students who might not be aware of the farm store's existence or who prefer online browsing before visiting in person. Additionally, families and professionals in the surrounding Pomona area who prioritize organic and local products would greatly benefit. These customer segments actively search online for specific products (e.g., "organic tomatoes near me," "local honey Pomona") and are willing to pay premium prices for quality. Improved online discovery directly caters to their shopping behaviors and values.
+
+## What Product Information or Ecommerce Requirements Would CPP Farm Store Need to Prepare?
+
+To effectively use Google Shopping Ads, CPP Farm Store would need to prepare several key components. First, a comprehensive product feed with accurate data including product titles, descriptions, high-quality images, current pricing, and real-time availability information. Each product would need proper categorization within Google's taxonomy (e.g., fresh produce, plants, dairy products). The store would also need to decide on a fulfillment model—whether to offer online ordering with in-store pickup, delivery, or direct farm visits. A mobile-friendly landing page or basic ecommerce platform would be necessary to complete the customer journey from ad click to purchase. Additionally, the farm store would need systems to track inventory in real-time to ensure product availability matches what's advertised. Payment processing capabilities, shipping/pickup policies, and return policies would all need to be clearly defined and communicated.
+
+## What Risks or Challenges Might CPP Farm Store Face Before Using Shopping Ads?
+
+Several challenges could impede CPP Farm Store's adoption of Google Shopping Ads. First, inventory management complexity—fresh products have limited shelf lives, and real-time inventory tracking is essential to avoid advertising out-of-stock items. Second, the farm store may lack existing ecommerce infrastructure or technical expertise to set up and manage Google Merchant Center and product feeds. Data quality issues could arise if product information is incomplete or inaccurate, leading to ad disapprovals or poor performance. The farm store might also struggle with fulfillment—handling online orders, packaging, and delivery for fresh products requires different processes than walk-in retail. Additionally, competition from larger grocery retailers and established online delivery services (like Instacart) poses a significant challenge. Finally, there's the question of customer acquisition cost versus lifetime value—investing in Google Shopping Ads requires budget and measurable ROI to justify the investment.
+
+## How Can Your Group Apply What You Learned to the Shopify Mini-Store, Product Feed, or Retail Media Setup Deliverables?
+
+Our group can apply these learnings directly to our deliverables in multiple ways. For the Shopify Mini-Store, we can ensure that product listings are optimized with clear titles, compelling descriptions, and high-quality images that align with Google Shopping requirements. This means structuring our Shopify store with searchability in mind from the start. For the Product Feed deliverable, we can create a comprehensive, well-organized feed that includes all required and recommended Google attributes, ensuring data consistency and completeness. This feed will be the foundation for successful Shopping Ads performance. When working on Retail Media Setup, we can implement tracking codes and conversion tags that measure the true impact of Shopping Ads on the farm store's business objectives. Additionally, we can recommend a phased rollout strategy—starting with high-performing products and key customer segments before scaling. By integrating these Google Shopping best practices into our deliverables, we position CPP Farm Store for long-term digital success and demonstrate how traditional retail businesses can thrive in the ecommerce landscape.
+
+---
