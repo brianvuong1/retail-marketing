@@ -1,0 +1,88 @@
+---
+title: "Group Member Evaluation Form"
+author: "Brian Vuong"
+date: today
+format: html
+---
+
+## Group Member Evaluation Form
+
+**Instructions:**
+Please evaluate your group members (including yourself) on a scale of 1 to 100%.
+
+- If a member contributed equally to the group project, give them 100%
+- If a member did not do their fair share, assign a percentage less than 100%
+- Evaluation will be confidential
+- If a member receives grades less than 100% from more than one person, the average of peer evaluations will be weighted to their individual grade
+- Each student must evaluate peers in the absence of other members to guarantee confidentiality
+- Submit your completed form directly to the instructor in a sealed envelope marked "confidential"
+- Identify the group leader (MVP) if applicable—they may receive up to 10% bonus
+
+---
+
+## Evaluation Table
+
+```{r}
+#| label: setup
+#| include: true
+
+# Create a data frame to store peer evaluations
+evaluation_data <- data.frame(
+  member_number = 1:5,
+  member_name = c("Brian (Self)", "Ron", "Alexa", "Kevin", "Sandy"),
+  grade_percent = c(100, 100, 100, 100, 100),
+  is_mvp = c("No", "Yes", "No", "No", "No")
+)
+
+# Display the evaluation table
+library(knitr)
+kable(evaluation_data, 
+      col.names = c("Member #", "Member Name", "Grade (%)", "MVP (Yes/No)"),
+      caption = "Group Member Evaluation Scores")
+```
+
+---
+
+## Submission Instructions
+
+**Name:** Brian V
+
+**Date:** July 17
+
+**Group Name/Project Name:** Proposal Presentation for Farm Store Client
+
+## Peer Evaluation
+
+In the table above, provide the following information for each group member (including yourself):
+
+1. **Member Name:** Enter the name of each group member
+2. **Grade (%):** Assign a percentage from 1-100%
+3. **MVP (Yes/No):** Check only ONE person if you believe they were the group leader/MVP
+
+---
+
+## Comments Section
+
+Please provide brief comments on the contributions of your teammates to the project. If you gave anyone a grade less than 100%, please justify your evaluation below.
+
+```{r}
+#| label: comments
+#| eval: false
+
+# Contribution summary
+contributions <- "
+Brian (Self): Worked on Business Objective
+
+Ron: Worked on Client Background and Project Objective
+
+Alexa: Worked on Methods
+
+Kevin: Worked on Timeline
+
+Sandy: Worked on Mock Deliverables
+
+All members contributed equally with 100% effort. Leeann was identified as the MVP for exceptional leadership and contribution to the project's success.
+"
+
+cat(contributions)
+```
