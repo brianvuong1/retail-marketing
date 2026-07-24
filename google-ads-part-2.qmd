@@ -1,0 +1,91 @@
+---
+title: "Google Skillshop Modules and CPP Farm Store Campaign Strategy"
+author: "Brian V"
+date: "today"
+format: html
+---
+
+## 1. Skillshop Module Completion Summary
+
+### Module 4: Launch Your Retail Strategy
+
+**Key Concepts Covered:**
+- Retail campaign objectives and goal-setting
+- Understanding the customer journey in retail
+- Aligning business goals with marketing strategy
+- Multi-channel retail approaches
+- Budget allocation and resource planning
+
+**Completion Status:** ✓ Completed
+
+This module provided foundational knowledge on how to structure retail campaigns by defining clear objectives—whether focusing on online sales, store traffic, brand awareness, or customer retention. The emphasis on aligning marketing goals with overall business strategy will be critical for developing the CPP Farm Store campaign.
+
+---
+
+### Module 5: Identify the Right Shopping Campaign Type
+
+**Key Concepts Covered:**
+- Shopping campaign types and their use cases
+- Standard Shopping campaigns vs. Performance Max
+- Product selection and feed optimization
+- Bid strategies and budget management
+- Campaign structure and organization
+- Performance measurement for shopping campaigns
+
+**Completion Status:** ✓ Completed
+
+This module explored how different shopping campaign types serve different business objectives. Understanding when to use Standard Shopping campaigns versus Performance Max will help determine the best approach for CPP Farm Store's specific goals and product mix.
+
+---
+
+### Module 6: Unlock the Power of Performance Max
+
+**Key Concepts Covered:**
+- Performance Max campaign capabilities and automation
+- Machine learning and AI-driven optimization
+- Omnichannel reach across Google properties (Search, Display, YouTube, Gmail, Maps)
+- Asset creation and creative strategy
+- Conversion tracking and attribution
+- Performance measurement and ROI analysis
+
+**Completion Status:** ✓ Completed
+
+This module demonstrated how Performance Max leverages automation and AI to optimize campaigns across multiple channels simultaneously. The omnichannel approach and machine learning optimization represent a powerful strategy for reaching customers at various touchpoints in their shopping journey.
+
+---
+
+## 2. CPP Farm Store Campaign Strategy Reflection
+
+### Recommended Retail Campaign Strategy for CPP Farm Store
+
+Based on the Google Skillshop modules, I recommend a **hybrid approach combining elements of Standard Shopping campaigns with Performance Max** for the CPP Farm Store. Here's my strategic analysis:
+
+**Retail Campaign Objective**
+
+The primary objective should be **"Drive Store Traffic + Online Conversions"** with a secondary focus on brand awareness. While CPP Farm Store has an online presence, the farm store's core value proposition is the local, fresh, farm-to-table experience. A dual-objective approach allows us to capture customers who prefer online shopping while driving foot traffic to the physical location—where customers can see product quality, meet farmers, and build community relationships. This aligns with the university's mission and differentiates CPP Farm Store from large-scale online retailers.
+
+**Product Prioritization**
+
+Priority should be given to **seasonal produce, prepared foods, and signature products** (farm-fresh vegetables, custom gift boxes, ready-made meals). These categories have the highest margins, strongest customer loyalty, and best leverage the farm store's competitive advantage. Secondary categories like honey, dairy, and crafted goods should be included but with lower budget allocation. By focusing on high-margin, differentiated products, the campaign tells a compelling story about local agriculture rather than competing on commodity pricing.
+
+**Campaign Type and Structure**
+
+A **Performance Max approach with careful creative control** is most appropriate. Performance Max's omnichannel automation can reach customers across Google Search, Display, YouTube, and Maps—critical touchpoints for discovering a local farm store. However, given the importance of storytelling and brand positioning for CPP Farm Store, we should provide high-quality creative assets (farm photography, farmer testimonials, seasonal messaging) to guide the AI optimization rather than relying solely on dynamic feeds.
+
+**Channels and Customer Touchpoints**
+
+The campaign should prioritize: (1) **Google Maps and Local Search**—crucial for customers searching "farm store near me" or "fresh produce delivery"; (2) **YouTube**—ideal for educational content about farming practices and product quality; (3) **Google Search**—capturing high-intent customers searching for specific products; (4) **Display and Gmail**—for awareness and retargeting previous visitors. In-store promotions and QR codes linking to the campaign should reinforce the omnichannel experience.
+
+**Key Performance Indicators (KPIs)**
+
+- **Store Traffic**: Foot traffic counts, store visits via Google Maps direction clicks
+- **Online Conversions**: Online sales, CSA subscriptions, email list growth
+- **Customer Acquisition Cost (CAC)**: Cost per store visit vs. cost per online order
+- **Average Order Value (AOV)**: Both online and in-store
+- **Brand Awareness**: Search volume for "CPP Farm Store," branded keyword performance
+- **Customer Lifetime Value**: Repeat purchase rate, subscription retention
+- **Engagement Metrics**: Video views, social shares, website time-on-site
+
+**Application to Deliverables**
+
+For our **Campaign Plan**, this strategy establishes clear objectives and channel priorities. For the **Creative Brief**, we should emphasize authentic storytelling—farmer profiles, seasonal updates, and transparency about local sourcing. For the **Dashboard**, we need to track both online and offline conversions, measure omnichannel attribution, and use Performance Max's reporting to identify which creative assets and audience segments drive store visits versus online orders. This data-driven approach ensures the campaign remains optimized for CPP Farm Store's unique hybrid retail model.
