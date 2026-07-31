@@ -35,5 +35,6 @@ With GA4 and Shopify analytics in place, CPP Farm Store could track a wide range
 
 ## Appendix
 
-- GitHub Repository: [INSERT REPO URL]
-- GitHub Pages (Published Report): 
+- GitHub Repository: https://github.com/brianvuong1/retail-marketing
+- GitHub Pages (Published Report): https://brianvuong1.github.io/retail-marketing/week-9-shopify.html
+
