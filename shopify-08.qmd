@@ -146,6 +146,6 @@ report on for the final project.
 
 ## Appendix
 
-- **GitHub Pages:** (https://github.com/brianvuong1/retail-marketing)
-- **GitHub Repository:** *[add your GitHub repo URL here]*
+- **GitHub Pages:** 
+- **GitHub Repository:** https://github.com/brianvuong1/retail-marketing
 - **Store URL:** [https://10b3ys-0m.myshopify.com](https://10b3ys-0m.myshopify.com)
