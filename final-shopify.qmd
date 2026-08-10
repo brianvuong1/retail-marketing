@@ -1,0 +1,169 @@
+---
+title: "Assignment 9: Final Shopify Store Reflection Report"
+subtitle: "Atelier North — Final Reflection and CPP Farm Store Application"
+author: "Brian"
+date: today
+format:
+  html:
+    embed-resources: true
+    toc: true
+    toc-depth: 2
+    theme: cosmo
+---
+
+## 1. Store Overview
+
+My pretend Shopify store, **Atelier North**
+([10b3ys-0m.myshopify.com](https://10b3ys-0m.myshopify.com)), is a curated
+home goods brand selling kitchen, home & living, and bed & bath products. The
+concept centers on "thoughtfully curated home essentials for modern living" —
+positioning the store as a premium, design-forward alternative to big-box
+home retailers. The target customer is a design-conscious adult shopper
+furnishing or refreshing their home who values sourcing story and product
+craftsmanship over low price. The assortment spans 9 SKUs across three
+categories: Kitchen & Table (e.g., Hand-Carved Olive Wood Serving Board),
+Home & Living (e.g., Stoneware Matcha Bowl), and Bed & Bath (e.g., Organic
+Cotton Waffle Bath Towel Set).
+
+## 2. Final Store Evidence
+
+### Homepage
+
+Full-width green hero banner, "Atelier North" wordmark, brand description,
+and top navigation with Home, Catalog, Contact, and three category links.
+
+![Homepage](images/01-homepage.png)
+
+### Product catalog / product page
+
+The full Catalog page lists all 9 products in a filterable, sortable grid.
+
+![Catalog page](images/02-catalog.png)
+
+Individual product pages include large lifestyle photography, price, a
+quantity selector, and benefit-driven descriptive copy.
+
+![Product page — Hand-Carved Olive Wood Serving Board](images/03-product-serving-board.png)
+
+![Product page — Organic Cotton Waffle Bath Towel Set](images/04-product-towel-set.png)
+
+### Collection page
+
+The Home & Living collection page correctly filters the catalog down to its
+3 relevant items.
+
+![Home & Living collection page](images/06-home-living-collection.png)
+
+### Navigation menu
+
+The top nav is consistent across every page, exposing Home, Catalog,
+Contact, and all three product categories.
+
+![Homepage — navigation menu visible](images/01-homepage.png)
+
+### Policy / contact information
+
+The Contact page includes a standard inquiry form (Name, Email, Phone,
+Comment) plus a footer with shop links and newsletter signup.
+
+![Contact page](images/05-contact.png)
+
+### GA4 / Shopify analytics evidence
+
+The cart drawer confirms functioning add-to-cart, pricing, and discount code
+behavior.
+
+![Cart drawer showing an item successfully added](images/07-cart.png)
+
+The Shopify Analytics dashboard, reviewed as part of Assignment 8, shows the
+expected zero-state metrics for an unlaunched store.
+
+![Shopify Analytics dashboard](images/08-analytics.png)
+
+## 3. Retail Technology Reflection
+
+Building Atelier North taught me that Shopify functions as a full retail
+operating system, not just a storefront builder. Setting up products,
+collections, navigation, and policies made clear how much of the "retail"
+work — merchandising rules, inventory status, checkout logic — is handled
+declaratively through the platform rather than through custom code. I also
+learned that Shopify's default behaviors (like inventory-driven "Sold out"
+states) directly shape the customer experience, and that platform
+configuration choices are retail decisions, not just technical ones. Testing
+the customer journey end to end showed me how tightly the platform couples
+storefront presentation with backend inventory and cart logic, and how a
+single misconfiguration (like the sold-out/cart mismatch I found in
+Assignment 8) can break the entire funnel even when every individual page
+looks polished.
+
+## 4. Merchandising Reflection
+
+Working through product catalog setup, collections, and navigation taught me
+that merchandising on Shopify is really an exercise in information
+architecture. Deciding which three categories to expose in the nav, how to
+group products into collections, and how to write product copy that sells a
+narrative rather than just specs all directly affected how easy the store
+was to browse. I learned that collection filtering (by availability and
+price) is a merchandising tool as much as a technical feature — it lets a
+shopper self-select into the products relevant to them. I also learned that
+storefront design and merchandising can't be evaluated separately from
+inventory accuracy: a beautifully merchandised collection page still fails
+the customer if every item is unavailable, which was the central issue I
+uncovered in my customer journey testing.
+
+## 5. Analytics Reflection
+
+Reviewing the built-in Shopify Analytics dashboard showed me what a
+retailer sees by default — gross sales, returning customer rate, orders
+fulfilled — and how those metrics stay at zero without real traffic and
+transactions. This made concrete why GA4 integration matters: GA4 is what
+would let me see behavior *before* a purchase decision (sessions, page
+views, funnel drop-off by stage) rather than just post-purchase totals.
+Connecting this to the CPP Farm Store dashboard project, where I was
+responsible for designing dashboard sections to evaluate omnichannel and
+ecommerce campaign performance, reinforced that analytics only becomes
+useful once it's organized around specific business questions (channel
+performance, campaign ROI, customer behavior) rather than just displayed as
+raw metrics. Testing my own store's customer journey was a useful complement
+to that dashboard work — it showed me firsthand what a broken step in the
+funnel (like the sold-out inconsistency) looks like from the customer side,
+which is exactly the kind of drop-off a GA4 funnel report would need to
+surface.
+
+## 6. CPP Farm Store Application
+
+1. **Funnel and drop-off visibility.** The customer journey testing method I
+   used on Atelier North — walking homepage → collection → product → cart →
+   checkout and logging where the experience breaks — is directly
+   transferable to CPP Farm Store. A GA4 funnel exploration could quantify
+   where real customers abandon the path, the same way I manually caught the
+   sold-out/cart mismatch on my own store.
+2. **Inventory and merchandising accuracy as a conversion lever.** My
+   experience with sold-out statuses blocking checkout shows CPP Farm Store
+   that inventory data quality is itself a conversion driver — a GA4/Shopify
+   dashboard should flag high-traffic products that are unavailable, since
+   these are lost-sale opportunities.
+3. **Channel-level dashboard design.** The dashboard sections I designed for
+   the CPP Farm Store GP6 project (evaluating omnichannel and ecommerce
+   campaign performance) apply the same principle I practiced on Atelier
+   North's Shopify Analytics page: organize metrics (sessions, conversion
+   rate, average order value) by the questions the business actually needs
+   answered — in CPP Farm Store's case, comparing in-store/omnichannel
+   performance against pure ecommerce channel performance.
+
+## 7. Final Self-Assessment
+
+I'm proud of the visual and content consistency across Atelier North — the
+color palette, typography, and benefit-driven product copy give the store a
+cohesive, premium feel from the homepage through individual product pages.
+With more time, I would fix the inventory configuration so every product
+supports a full end-to-end checkout test, and I would generate real test
+traffic so the Shopify Analytics and GA4 dashboards showed actual session,
+conversion, and sales-by-product data instead of a zero-state — that would
+let me evaluate real customer behavior rather than just the static storefront
+design.
+
+## Appendix
+
+- **GitHub Repository:** https://github.com/brianvuong1/retail-marketing
+- **Store URL:** [https://10b3ys-0m.myshopify.com](https://10b3ys-0m.myshopify.com)
