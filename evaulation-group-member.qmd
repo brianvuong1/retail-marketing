@@ -1,0 +1,82 @@
+---
+title: "Group Member Evaluation Form"
+subtitle: "CPP Farm Store Omnichannel & Ecommerce Project"
+author: "Brian Vuong"
+date: today
+format:
+  html:
+    toc: false
+    theme: cosmo
+    embed-resources: true
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+```{r}
+#| label: setup
+#| include: false
+
+library(tibble)
+library(knitr)
+```
+
+## Evaluator Information
+
+**Name:** Brian Vuong
+
+**Date:** `r format(Sys.Date(), "%B %d, %Y")`
+
+**Group Name / Project Name:** CPP Farm Store — Omnichannel & Ecommerce Consulting Project
+
+---
+
+## Instructions
+
+Please evaluate your group members (including yourself) on a 1–100% scale. If a member contributed their fair share to the group project, give them 100%. If a member did not do their fair share, assign a percentage less than 100%. If a member contributed significantly above and beyond, they may be identified as MVP.
+
+---
+
+## Member Evaluation
+
+```{r}
+#| label: member-evaluation
+
+member_eval <- tribble(
+  ~`Member Name`,        ~`Grade (%)`, ~`MVP`,
+  "Brian Vuong (self)",  100,          "No",
+  "Kevin Bachez",        100,          "No",
+  "Ron Stephen Sabilla", 100,          "No",
+  "Alexa Bueno",         100,          "No",
+  "Qian Zhu (Sandy)",    100,          "No"
+)
+
+kable(
+  member_eval,
+  caption = "Group Member Contribution Evaluation"
+)
+```
+
+---
+
+## Comments on Contributions
+
+**Brian Vuong (self):**
+Owned Section 5 (Product Feed / Retail Media Setup) and Section 6 (Campaign Plan) of the Final Report. For Section 5, selected and justified the five-SKU product feed (honey, produce box, gift basket, jam, eggs), each assigned a distinct strategic role (acquisition, retention, high-value occasions), standardized product titles and descriptions, specified a full product photography plan with technical specs for Google Merchant Center compliance, and flagged the remaining feed-quality gaps (missing images and landing page URLs) before submission. For Section 6, wrote the full campaign plan built around the "Thoughtful Gifts, Grown Here" message, including the business problem, target audience, channel and budget strategy ($5,000 across events, email, Google Ads, in-store materials, content, and social), KPIs, and a layered optimization cadence (weekly/bi-weekly/monthly). Also owned Steps 5–6 of GP6, designing the six dashboard sections and framing how they'd be measured. Kept content synchronized so Section 5's feed and photography priorities fed directly into Section 6's campaign and budget timing.
+
+**Kevin Bachez:**
+Owned Section 8 (Analytics Dashboard). Built out the dashboard purpose, measurement objectives, and data source plan (GA4, Shopify, Google Ads, social, email, POS/pickup), and reported the simulated KPI results (980 users, 1,138 sessions, 126 purchases, $2,644 revenue, 11.07% conversion rate, $20.98 AOV, 65 pickup-interest signals). Wrote up the dashboard visualizations (sessions over time, channel comparison, purchases by campaign, product performance), pulled out the key insights (e.g., traffic volume doesn't guarantee conversion, per the Farm Fresh Summer vs. Student Appreciation campaign comparison), and translated those insights into five recommended actions plus a clear statement of the dashboard's data limitations.
+
+**Ron Stephen Sabilla:**
+Owned Section 1 (Executive Summary) and Section 2 (Client and Situation Analysis). Framed the client's core problem (low awareness, confusing website) and main recommendation up front, and tied the supporting evidence back to the customer-journey drop-off between Awareness and Consideration. In Section 2, profiled all five customer segments (students, faculty/staff, local community, alumni, online-first shoppers), broke out the four product categories, and wrote the strengths/weaknesses/opportunities/threats analysis and SWOT table that set up the rest of the report's recommendations.
+
+**Alexa Bueno:**
+Owned Section 4 (Ecommerce / Shopify Prototype) and Section 7 (Creative Brief / AI Assets). In Section 4, defined the gift-basket-focused Shopify prototype strategy (three basket categories, homepage and product page layout, five-item navigation, and three specific UX additions — local pickup toggle, gift note field, order-ready text notification) and tied each choice back to a specific journey-map pain point. In Section 7, developed the creative objective and key message ("Fresh from the Farm, made for giving"), set the tone/style direction, produced the AI-generated sample assets (banner, basket image, Instagram poll), and wrote the channel-fit and brand-fit reasoning explaining why the assets support the Shopify build in Section 4.
+
+**Qian Zhu (Sandy):**
+Owned Section 3 (Omnichannel Journey Analysis) and Section 9 (Final Recommendations). In Section 3, mapped the full six-stage customer journey (Awareness through Loyalty/Repeat Purchase) for the two priority segments, identified the cross-channel touchpoints and pain points, and connected the journey map directly to the report's overall recommendation logic. In Section 9, wrote all three final recommendations (Shopify/pickup fixes as highest priority, the gift box campaign as the medium-term opportunity, and a retention/loyalty program as the future opportunity), each with resources needed and how success should be measured.
+
+---
+
+*(Use additional space above if needed — comments should justify any grade below 100%.)*
